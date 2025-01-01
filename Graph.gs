@@ -8,6 +8,18 @@ class Module {
     this.prereqs = prereqs; // set of modules
     this.category = category; // string
   }
+
+  prereq_fold_left(reducer, initialValue) {
+    this.prereqs = this.resourceList.reduce(reducer, initialValue);
+  }
+}
+
+function union(accumulator, curr){
+  return new Set([...accumulator,...(curr.prereqModules)]);
+}
+
+function intersection(accumulator, curr){
+  new Set([...accumulator].filter(item => curr.prereqModules.has(item)));
 }
 
 class Resource {
@@ -18,6 +30,23 @@ class Resource {
     this.prereqModules = prereqModules; // set of modules -> this is strings at generation because we don't know that all modules have been generated yet, might want to modify this later
     this.category = category; // string
     this.tags = tags; // list of strings
+  }
+
+  // Method to convert prereqModules from strings to module objects
+  convertPrereqModules(moduleMap) {
+    // Create a new set to store the converted module objects
+    const convertedModules = new Set();
+
+    this.prereqModules.forEach(moduleName => {
+      if (moduleMap.has(moduleName)) {
+        convertedModules.add(moduleMap.get(moduleName)); // Add the corresponding module object
+      } else {
+        console.warn(`Module "${moduleName}" not found in moduleMap.`);
+      }
+    });
+
+    // Replace the current prereqModules set with the converted set
+    this.prereqModules = convertedModules;
   }
 }
 
@@ -72,6 +101,12 @@ function generateGraphResourceList() {
     });
   });
 
+  // Convert all prereqmodules from strings to the actual objects
+  graph_resource_list.forEach(resource => {
+    resource.convertPrereqModules(moduleMap);
+  });
+
+
   // Log the global resource list (for debugging)
   console.log(graph_resource_list);
 
@@ -79,6 +114,15 @@ function generateGraphResourceList() {
 }
 
 function myFunction() {
-  
+  generateGraphResourceList();
+  let iter = moduleMap.values();
+  for(i = 0; i < 3; i++){
+    iter.next();
+  }
+  const module1 = iter.next().value;
+  console.log(module1.name);
+  module1.prereq_fold_left(union, new Set([]));
+  console.log(module1.prereqs);
+
 }
 
