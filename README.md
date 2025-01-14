@@ -1,7 +1,7 @@
 # Dynamic-Learning-Graph
 A program to organize resources for learning any subject into a dynamic, interactive graph
 
-#Algorithm Design (Rough Sketch)
+# Algorithm Design (Rough Sketch)
 
 ### Objective:
 - Organize topics ("modules") in a graph based on prerequisites for learning any topic.
