@@ -1,0 +1,7 @@
+# Codex CLI artifacts
+.codex/
+codex.log
+codex.log.*
+codex_history.jsonl
+codex_history.jsonl.*
+codex_sessions/
