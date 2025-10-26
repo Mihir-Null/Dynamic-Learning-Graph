@@ -1,0 +1,1275 @@
+{
+  "generatedAt": "2025-10-13T20:33:45.126380Z",
+  "modules": [
+    {
+      "id": "computer-science-programming-foundations",
+      "name": "Programming Foundations",
+      "area": "Computer Science",
+      "flatTags": [
+        "Computer Science",
+        "Computer Science>Programming Foundations",
+        "Computer Science>Programming Foundations>Functional",
+        "Computer Science>Programming Foundations>Syntax"
+      ],
+      "tagPaths": [
+        [
+          "Computer Science",
+          "Programming Foundations",
+          "Syntax"
+        ],
+        [
+          "Computer Science",
+          "Programming Foundations",
+          "Functional"
+        ]
+      ],
+      "resourceIds": [
+        "intro-to-programming-programming-foundations",
+        "functional-patterns-in-js-programming-foundations"
+      ],
+      "prerequisiteModuleIds": [],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Intro to Programming",
+          "summary": "Selected by minPrereqs strategy with 0 prerequisite modules.",
+          "resourceId": "intro-to-programming-programming-foundations"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Programming Foundations Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-computer-science-programming-foundations",
+            "averageDifficulty": 1.5,
+            "aggregatedTags": [
+              "Computer Science",
+              "Computer Science>Programming Foundations",
+              "Computer Science>Programming Foundations>Functional",
+              "Computer Science>Programming Foundations>Syntax"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "computer-science-programming-foundations"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [],
+      "closureOrder": 0
+    },
+    {
+      "id": "mathematics-linear-algebra-refresher",
+      "name": "Linear Algebra Refresher",
+      "area": "Mathematics",
+      "flatTags": [
+        "Mathematics",
+        "Mathematics>Linear Algebra",
+        "Mathematics>Linear Algebra>Matrices"
+      ],
+      "tagPaths": [
+        [
+          "Mathematics",
+          "Linear Algebra",
+          "Matrices"
+        ]
+      ],
+      "resourceIds": [
+        "linear-algebra-refresher-linear-algebra-refresher"
+      ],
+      "prerequisiteModuleIds": [],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Linear Algebra Refresher",
+          "summary": "Selected by minPrereqs strategy with 0 prerequisite modules.",
+          "resourceId": "linear-algebra-refresher-linear-algebra-refresher"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Linear Algebra Refresher Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-mathematics-linear-algebra-refresher",
+            "averageDifficulty": 1.0,
+            "aggregatedTags": [
+              "Mathematics",
+              "Mathematics>Linear Algebra",
+              "Mathematics>Linear Algebra>Matrices"
+            ],
+            "aggregatedPrereqModuleIds": []
+          }
+        }
+      },
+      "closurePrerequisites": [],
+      "closureOrder": 1
+    },
+    {
+      "id": "mathematics-discrete-mathematics",
+      "name": "Discrete Mathematics",
+      "area": "Mathematics",
+      "flatTags": [
+        "Mathematics",
+        "Mathematics>Discrete Mathematics",
+        "Mathematics>Discrete Mathematics>Logic"
+      ],
+      "tagPaths": [
+        [
+          "Mathematics",
+          "Discrete Mathematics",
+          "Logic"
+        ]
+      ],
+      "resourceIds": [
+        "discrete-math-essentials-discrete-mathematics"
+      ],
+      "prerequisiteModuleIds": [
+        "computer-science-programming-foundations"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Discrete Math Essentials",
+          "summary": "Selected by minPrereqs strategy with 1 prerequisite modules.",
+          "resourceId": "discrete-math-essentials-discrete-mathematics"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Discrete Mathematics Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-mathematics-discrete-mathematics",
+            "averageDifficulty": 2.0,
+            "aggregatedTags": [
+              "Mathematics",
+              "Mathematics>Discrete Mathematics",
+              "Mathematics>Discrete Mathematics>Logic"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "computer-science-programming-foundations"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "computer-science-programming-foundations"
+      ],
+      "closureOrder": 2
+    },
+    {
+      "id": "devops-cloud-infrastructure",
+      "name": "Cloud Infrastructure",
+      "area": "DevOps",
+      "flatTags": [
+        "DevOps",
+        "DevOps>Cloud Infrastructure",
+        "DevOps>Cloud Infrastructure>Foundations"
+      ],
+      "tagPaths": [
+        [
+          "DevOps",
+          "Cloud Infrastructure",
+          "Foundations"
+        ]
+      ],
+      "resourceIds": [
+        "cloud-infrastructure-basics-cloud-infrastructure"
+      ],
+      "prerequisiteModuleIds": [
+        "computer-science-programming-foundations"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Cloud Infrastructure Basics",
+          "summary": "Selected by minPrereqs strategy with 1 prerequisite modules.",
+          "resourceId": "cloud-infrastructure-basics-cloud-infrastructure"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Cloud Infrastructure Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-devops-cloud-infrastructure",
+            "averageDifficulty": 1.0,
+            "aggregatedTags": [
+              "DevOps",
+              "DevOps>Cloud Infrastructure",
+              "DevOps>Cloud Infrastructure>Foundations"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "computer-science-programming-foundations"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "computer-science-programming-foundations"
+      ],
+      "closureOrder": 3
+    },
+    {
+      "id": "quantum-computing-quantum-circuits",
+      "name": "Quantum Circuits",
+      "area": "Quantum Computing",
+      "flatTags": [
+        "Quantum Computing",
+        "Quantum Computing>Quantum Circuits",
+        "Quantum Computing>Quantum Circuits>Measurement",
+        "Quantum Computing>Quantum Circuits>Single Qubit Operations"
+      ],
+      "tagPaths": [
+        [
+          "Quantum Computing",
+          "Quantum Circuits",
+          "Single Qubit Operations"
+        ],
+        [
+          "Quantum Computing",
+          "Quantum Circuits",
+          "Measurement"
+        ]
+      ],
+      "resourceIds": [
+        "quantum-circuits-101-quantum-circuits"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra-refresher"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Quantum Circuits 101",
+          "summary": "Selected by minPrereqs strategy with 1 prerequisite modules.",
+          "resourceId": "quantum-circuits-101-quantum-circuits"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Circuits Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-quantum-computing-quantum-circuits",
+            "averageDifficulty": 2.0,
+            "aggregatedTags": [
+              "Quantum Computing",
+              "Quantum Computing>Quantum Circuits",
+              "Quantum Computing>Quantum Circuits>Measurement",
+              "Quantum Computing>Quantum Circuits>Single Qubit Operations"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "mathematics-linear-algebra-refresher"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "mathematics-linear-algebra-refresher"
+      ],
+      "closureOrder": 4
+    },
+    {
+      "id": "computer-science-algorithms-data-structures",
+      "name": "Algorithms & Data Structures",
+      "area": "Computer Science",
+      "flatTags": [
+        "Computer Science",
+        "Computer Science>Algorithms",
+        "Computer Science>Algorithms>Divide and Conquer",
+        "Computer Science>Algorithms>Graph Algorithms"
+      ],
+      "tagPaths": [
+        [
+          "Computer Science",
+          "Algorithms",
+          "Graph Algorithms"
+        ],
+        [
+          "Computer Science",
+          "Algorithms",
+          "Divide and Conquer"
+        ]
+      ],
+      "resourceIds": [
+        "algorithm-design-manual-algorithms-data-structures"
+      ],
+      "prerequisiteModuleIds": [
+        "computer-science-programming-foundations",
+        "mathematics-discrete-mathematics"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Algorithm Design Manual",
+          "summary": "Selected by minPrereqs strategy with 2 prerequisite modules.",
+          "resourceId": "algorithm-design-manual-algorithms-data-structures"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Algorithms & Data Structures Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-computer-science-algorithms-data-structures",
+            "averageDifficulty": 3.0,
+            "aggregatedTags": [
+              "Computer Science",
+              "Computer Science>Algorithms",
+              "Computer Science>Algorithms>Divide and Conquer",
+              "Computer Science>Algorithms>Graph Algorithms"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "computer-science-programming-foundations",
+              "mathematics-discrete-mathematics"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "computer-science-programming-foundations",
+        "mathematics-discrete-mathematics"
+      ],
+      "closureOrder": 5
+    },
+    {
+      "id": "quantum-computing-quantum-error-correction",
+      "name": "Quantum Error Correction",
+      "area": "Quantum Computing",
+      "flatTags": [
+        "Quantum Computing",
+        "Quantum Computing>Quantum Error Correction",
+        "Quantum Computing>Quantum Error Correction>Stabilizer Codes",
+        "Quantum Computing>Quantum Error Correction>Topological"
+      ],
+      "tagPaths": [
+        [
+          "Quantum Computing",
+          "Quantum Error Correction",
+          "Stabilizer Codes"
+        ],
+        [
+          "Quantum Computing",
+          "Quantum Error Correction",
+          "Topological"
+        ]
+      ],
+      "resourceIds": [
+        "stabilizer-codes-tutorial-quantum-error-correction"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra-refresher",
+        "quantum-computing-quantum-circuits"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Stabilizer Codes Tutorial",
+          "summary": "Selected by minPrereqs strategy with 2 prerequisite modules.",
+          "resourceId": "stabilizer-codes-tutorial-quantum-error-correction"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Error Correction Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-quantum-computing-quantum-error-correction",
+            "averageDifficulty": 3.0,
+            "aggregatedTags": [
+              "Quantum Computing",
+              "Quantum Computing>Quantum Error Correction",
+              "Quantum Computing>Quantum Error Correction>Stabilizer Codes",
+              "Quantum Computing>Quantum Error Correction>Topological"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "mathematics-linear-algebra-refresher",
+              "quantum-computing-quantum-circuits"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "mathematics-linear-algebra-refresher",
+        "quantum-computing-quantum-circuits"
+      ],
+      "closureOrder": 6
+    },
+    {
+      "id": "interdisciplinary-quantum-deployment",
+      "name": "Quantum Deployment",
+      "area": "Interdisciplinary",
+      "flatTags": [
+        "Interdisciplinary",
+        "Interdisciplinary>Quantum Deployment",
+        "Interdisciplinary>Quantum Deployment>APIs",
+        "Interdisciplinary>Quantum Deployment>Serverless"
+      ],
+      "tagPaths": [
+        [
+          "Interdisciplinary",
+          "Quantum Deployment",
+          "APIs"
+        ],
+        [
+          "Interdisciplinary",
+          "Quantum Deployment",
+          "Serverless"
+        ]
+      ],
+      "resourceIds": [
+        "serverless-quantum-api-quantum-deployment"
+      ],
+      "prerequisiteModuleIds": [
+        "devops-cloud-infrastructure",
+        "quantum-computing-quantum-circuits"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Serverless Quantum API",
+          "summary": "Selected by minPrereqs strategy with 2 prerequisite modules.",
+          "resourceId": "serverless-quantum-api-quantum-deployment"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Deployment Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-interdisciplinary-quantum-deployment",
+            "averageDifficulty": 2.0,
+            "aggregatedTags": [
+              "Interdisciplinary",
+              "Interdisciplinary>Quantum Deployment",
+              "Interdisciplinary>Quantum Deployment>APIs",
+              "Interdisciplinary>Quantum Deployment>Serverless"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "devops-cloud-infrastructure",
+              "quantum-computing-quantum-circuits"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "computer-science-programming-foundations",
+        "devops-cloud-infrastructure",
+        "mathematics-linear-algebra-refresher",
+        "quantum-computing-quantum-circuits"
+      ],
+      "closureOrder": 7
+    },
+    {
+      "id": "machine-learning-probabilistic-models",
+      "name": "Probabilistic Models",
+      "area": "Machine Learning",
+      "flatTags": [
+        "Machine Learning",
+        "Machine Learning>Probabilistic Models",
+        "Machine Learning>Probabilistic Models>Graphical Models",
+        "Machine Learning>Probabilistic Models>Inference",
+        "Machine Learning>Probabilistic Models>Variational Methods"
+      ],
+      "tagPaths": [
+        [
+          "Machine Learning",
+          "Probabilistic Models",
+          "Graphical Models"
+        ],
+        [
+          "Machine Learning",
+          "Probabilistic Models",
+          "Inference"
+        ],
+        [
+          "Machine Learning",
+          "Probabilistic Models",
+          "Variational Methods"
+        ]
+      ],
+      "resourceIds": [
+        "probabilistic-graphical-models-probabilistic-models",
+        "variational-inference-workshop-probabilistic-models"
+      ],
+      "prerequisiteModuleIds": [
+        "computer-science-algorithms-data-structures",
+        "mathematics-discrete-mathematics",
+        "mathematics-linear-algebra-refresher"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Probabilistic Graphical Models",
+          "summary": "Selected by minPrereqs strategy with 2 prerequisite modules.",
+          "resourceId": "probabilistic-graphical-models-probabilistic-models"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Probabilistic Models Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-machine-learning-probabilistic-models",
+            "averageDifficulty": 3.0,
+            "aggregatedTags": [
+              "Machine Learning",
+              "Machine Learning>Probabilistic Models",
+              "Machine Learning>Probabilistic Models>Graphical Models",
+              "Machine Learning>Probabilistic Models>Inference",
+              "Machine Learning>Probabilistic Models>Variational Methods"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "computer-science-algorithms-data-structures",
+              "mathematics-discrete-mathematics",
+              "mathematics-linear-algebra-refresher"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "computer-science-algorithms-data-structures",
+        "computer-science-programming-foundations",
+        "mathematics-discrete-mathematics",
+        "mathematics-linear-algebra-refresher"
+      ],
+      "closureOrder": 8
+    },
+    {
+      "id": "interdisciplinary-quantum-machine-learning",
+      "name": "Quantum Machine Learning",
+      "area": "Interdisciplinary",
+      "flatTags": [
+        "Interdisciplinary",
+        "Interdisciplinary>Quantum Machine Learning",
+        "Interdisciplinary>Quantum Machine Learning>Hybrid Models",
+        "Interdisciplinary>Quantum Machine Learning>Optimization"
+      ],
+      "tagPaths": [
+        [
+          "Interdisciplinary",
+          "Quantum Machine Learning",
+          "Hybrid Models"
+        ],
+        [
+          "Interdisciplinary",
+          "Quantum Machine Learning",
+          "Optimization"
+        ]
+      ],
+      "resourceIds": [
+        "hybrid-qml-pipeline-quantum-machine-learning"
+      ],
+      "prerequisiteModuleIds": [
+        "machine-learning-probabilistic-models",
+        "quantum-computing-quantum-circuits"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Hybrid QML Pipeline",
+          "summary": "Selected by minPrereqs strategy with 2 prerequisite modules.",
+          "resourceId": "hybrid-qml-pipeline-quantum-machine-learning"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Machine Learning Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-interdisciplinary-quantum-machine-learning",
+            "averageDifficulty": 3.0,
+            "aggregatedTags": [
+              "Interdisciplinary",
+              "Interdisciplinary>Quantum Machine Learning",
+              "Interdisciplinary>Quantum Machine Learning>Hybrid Models",
+              "Interdisciplinary>Quantum Machine Learning>Optimization"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "machine-learning-probabilistic-models",
+              "quantum-computing-quantum-circuits"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "computer-science-algorithms-data-structures",
+        "computer-science-programming-foundations",
+        "machine-learning-probabilistic-models",
+        "mathematics-discrete-mathematics",
+        "mathematics-linear-algebra-refresher",
+        "quantum-computing-quantum-circuits"
+      ],
+      "closureOrder": 9
+    }
+  ],
+  "resources": [
+    {
+      "id": "intro-to-programming-programming-foundations",
+      "name": "Intro to Programming",
+      "link": "https://learn.example.com/programming-intro",
+      "area": "Computer Science",
+      "module_id": "computer-science-programming-foundations",
+      "module_name": "Programming Foundations",
+      "type": "Course",
+      "difficulty": "Beginner",
+      "difficulty_weight": 1,
+      "tag_paths": [
+        [
+          "Computer Science",
+          "Programming Foundations",
+          "Syntax"
+        ]
+      ],
+      "flat_tags": [
+        "Computer Science",
+        "Computer Science>Programming Foundations>Syntax",
+        "Computer Science>Programming Foundations"
+      ],
+      "prerequisite_module_ids": [],
+      "tag_prerequisite_paths": []
+    },
+    {
+      "id": "functional-patterns-in-js-programming-foundations",
+      "name": "Functional Patterns in JS",
+      "link": "https://learn.example.com/functional-js",
+      "area": "Computer Science",
+      "module_id": "computer-science-programming-foundations",
+      "module_name": "Programming Foundations",
+      "type": "Workshop",
+      "difficulty": "Intermediate",
+      "difficulty_weight": 2,
+      "tag_paths": [
+        [
+          "Computer Science",
+          "Programming Foundations",
+          "Functional"
+        ]
+      ],
+      "flat_tags": [
+        "Computer Science>Programming Foundations>Functional",
+        "Computer Science",
+        "Computer Science>Programming Foundations"
+      ],
+      "prerequisite_module_ids": [
+        "computer-science-programming-foundations"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Computer Science",
+          "Programming Foundations"
+        ]
+      ]
+    },
+    {
+      "id": "discrete-math-essentials-discrete-mathematics",
+      "name": "Discrete Math Essentials",
+      "link": "https://learn.example.com/discrete-math",
+      "area": "Mathematics",
+      "module_id": "mathematics-discrete-mathematics",
+      "module_name": "Discrete Mathematics",
+      "type": "Course",
+      "difficulty": "Intermediate",
+      "difficulty_weight": 2,
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Discrete Mathematics",
+          "Logic"
+        ]
+      ],
+      "flat_tags": [
+        "Mathematics>Discrete Mathematics",
+        "Mathematics",
+        "Mathematics>Discrete Mathematics>Logic"
+      ],
+      "prerequisite_module_ids": [
+        "computer-science-programming-foundations"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Computer Science",
+          "Programming Foundations"
+        ]
+      ]
+    },
+    {
+      "id": "algorithm-design-manual-algorithms-data-structures",
+      "name": "Algorithm Design Manual",
+      "link": "https://learn.example.com/algorithm-design",
+      "area": "Computer Science",
+      "module_id": "computer-science-algorithms-data-structures",
+      "module_name": "Algorithms & Data Structures",
+      "type": "Book",
+      "difficulty": "Advanced",
+      "difficulty_weight": 3,
+      "tag_paths": [
+        [
+          "Computer Science",
+          "Algorithms",
+          "Graph Algorithms"
+        ],
+        [
+          "Computer Science",
+          "Algorithms",
+          "Divide and Conquer"
+        ]
+      ],
+      "flat_tags": [
+        "Computer Science>Algorithms",
+        "Computer Science",
+        "Computer Science>Algorithms>Divide and Conquer",
+        "Computer Science>Algorithms>Graph Algorithms"
+      ],
+      "prerequisite_module_ids": [
+        "computer-science-programming-foundations",
+        "mathematics-discrete-mathematics"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Mathematics",
+          "Discrete Mathematics"
+        ],
+        [
+          "Computer Science",
+          "Programming Foundations"
+        ]
+      ]
+    },
+    {
+      "id": "linear-algebra-refresher-linear-algebra-refresher",
+      "name": "Linear Algebra Refresher",
+      "link": "https://learn.example.com/linear-algebra",
+      "area": "Mathematics",
+      "module_id": "mathematics-linear-algebra-refresher",
+      "module_name": "Linear Algebra Refresher",
+      "type": "Course",
+      "difficulty": "Beginner",
+      "difficulty_weight": 1,
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Linear Algebra",
+          "Matrices"
+        ]
+      ],
+      "flat_tags": [
+        "Mathematics",
+        "Mathematics>Linear Algebra",
+        "Mathematics>Linear Algebra>Matrices"
+      ],
+      "prerequisite_module_ids": [],
+      "tag_prerequisite_paths": []
+    },
+    {
+      "id": "probabilistic-graphical-models-probabilistic-models",
+      "name": "Probabilistic Graphical Models",
+      "link": "https://learn.example.com/pgm",
+      "area": "Machine Learning",
+      "module_id": "machine-learning-probabilistic-models",
+      "module_name": "Probabilistic Models",
+      "type": "Course",
+      "difficulty": "Advanced",
+      "difficulty_weight": 3,
+      "tag_paths": [
+        [
+          "Machine Learning",
+          "Probabilistic Models",
+          "Graphical Models"
+        ]
+      ],
+      "flat_tags": [
+        "Machine Learning>Probabilistic Models",
+        "Machine Learning",
+        "Machine Learning>Probabilistic Models>Graphical Models"
+      ],
+      "prerequisite_module_ids": [
+        "computer-science-algorithms-data-structures",
+        "mathematics-linear-algebra-refresher"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ],
+        [
+          "Computer Science",
+          "Algorithms"
+        ]
+      ]
+    },
+    {
+      "id": "variational-inference-workshop-probabilistic-models",
+      "name": "Variational Inference Workshop",
+      "link": "https://learn.example.com/variational-inference",
+      "area": "Machine Learning",
+      "module_id": "machine-learning-probabilistic-models",
+      "module_name": "Probabilistic Models",
+      "type": "Workshop",
+      "difficulty": "Advanced",
+      "difficulty_weight": 3,
+      "tag_paths": [
+        [
+          "Machine Learning",
+          "Probabilistic Models",
+          "Inference"
+        ],
+        [
+          "Machine Learning",
+          "Probabilistic Models",
+          "Variational Methods"
+        ]
+      ],
+      "flat_tags": [
+        "Machine Learning>Probabilistic Models",
+        "Machine Learning>Probabilistic Models>Inference",
+        "Machine Learning",
+        "Machine Learning>Probabilistic Models>Variational Methods"
+      ],
+      "prerequisite_module_ids": [
+        "mathematics-linear-algebra-refresher",
+        "mathematics-discrete-mathematics"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ],
+        [
+          "Mathematics",
+          "Discrete Mathematics"
+        ]
+      ]
+    },
+    {
+      "id": "quantum-circuits-101-quantum-circuits",
+      "name": "Quantum Circuits 101",
+      "link": "https://learn.example.com/quantum-circuits",
+      "area": "Quantum Computing",
+      "module_id": "quantum-computing-quantum-circuits",
+      "module_name": "Quantum Circuits",
+      "type": "Course",
+      "difficulty": "Intermediate",
+      "difficulty_weight": 2,
+      "tag_paths": [
+        [
+          "Quantum Computing",
+          "Quantum Circuits",
+          "Single Qubit Operations"
+        ],
+        [
+          "Quantum Computing",
+          "Quantum Circuits",
+          "Measurement"
+        ]
+      ],
+      "flat_tags": [
+        "Quantum Computing>Quantum Circuits",
+        "Quantum Computing",
+        "Quantum Computing>Quantum Circuits>Single Qubit Operations",
+        "Quantum Computing>Quantum Circuits>Measurement"
+      ],
+      "prerequisite_module_ids": [
+        "mathematics-linear-algebra-refresher"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ]
+      ]
+    },
+    {
+      "id": "stabilizer-codes-tutorial-quantum-error-correction",
+      "name": "Stabilizer Codes Tutorial",
+      "link": "https://learn.example.com/stabilizer-codes",
+      "area": "Quantum Computing",
+      "module_id": "quantum-computing-quantum-error-correction",
+      "module_name": "Quantum Error Correction",
+      "type": "Article",
+      "difficulty": "Advanced",
+      "difficulty_weight": 3,
+      "tag_paths": [
+        [
+          "Quantum Computing",
+          "Quantum Error Correction",
+          "Stabilizer Codes"
+        ],
+        [
+          "Quantum Computing",
+          "Quantum Error Correction",
+          "Topological"
+        ]
+      ],
+      "flat_tags": [
+        "Quantum Computing>Quantum Error Correction>Stabilizer Codes",
+        "Quantum Computing>Quantum Error Correction>Topological",
+        "Quantum Computing",
+        "Quantum Computing>Quantum Error Correction"
+      ],
+      "prerequisite_module_ids": [
+        "quantum-computing-quantum-circuits",
+        "mathematics-linear-algebra-refresher"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Quantum Computing",
+          "Quantum Circuits"
+        ],
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ]
+      ]
+    },
+    {
+      "id": "hybrid-qml-pipeline-quantum-machine-learning",
+      "name": "Hybrid QML Pipeline",
+      "link": "https://learn.example.com/hybrid-qml",
+      "area": "Interdisciplinary",
+      "module_id": "interdisciplinary-quantum-machine-learning",
+      "module_name": "Quantum Machine Learning",
+      "type": "CaseStudy",
+      "difficulty": "Advanced",
+      "difficulty_weight": 3,
+      "tag_paths": [
+        [
+          "Interdisciplinary",
+          "Quantum Machine Learning",
+          "Hybrid Models"
+        ],
+        [
+          "Interdisciplinary",
+          "Quantum Machine Learning",
+          "Optimization"
+        ]
+      ],
+      "flat_tags": [
+        "Interdisciplinary>Quantum Machine Learning>Optimization",
+        "Interdisciplinary",
+        "Interdisciplinary>Quantum Machine Learning",
+        "Interdisciplinary>Quantum Machine Learning>Hybrid Models"
+      ],
+      "prerequisite_module_ids": [
+        "quantum-computing-quantum-circuits",
+        "machine-learning-probabilistic-models"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Quantum Computing",
+          "Quantum Circuits"
+        ],
+        [
+          "Machine Learning",
+          "Probabilistic Models"
+        ]
+      ]
+    },
+    {
+      "id": "cloud-infrastructure-basics-cloud-infrastructure",
+      "name": "Cloud Infrastructure Basics",
+      "link": "https://learn.example.com/cloud-basics",
+      "area": "DevOps",
+      "module_id": "devops-cloud-infrastructure",
+      "module_name": "Cloud Infrastructure",
+      "type": "Course",
+      "difficulty": "Beginner",
+      "difficulty_weight": 1,
+      "tag_paths": [
+        [
+          "DevOps",
+          "Cloud Infrastructure",
+          "Foundations"
+        ]
+      ],
+      "flat_tags": [
+        "DevOps>Cloud Infrastructure",
+        "DevOps",
+        "DevOps>Cloud Infrastructure>Foundations"
+      ],
+      "prerequisite_module_ids": [
+        "computer-science-programming-foundations"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "Computer Science",
+          "Programming Foundations"
+        ]
+      ]
+    },
+    {
+      "id": "serverless-quantum-api-quantum-deployment",
+      "name": "Serverless Quantum API",
+      "link": "https://learn.example.com/serverless-quantum",
+      "area": "Interdisciplinary",
+      "module_id": "interdisciplinary-quantum-deployment",
+      "module_name": "Quantum Deployment",
+      "type": "Article",
+      "difficulty": "Intermediate",
+      "difficulty_weight": 2,
+      "tag_paths": [
+        [
+          "Interdisciplinary",
+          "Quantum Deployment",
+          "APIs"
+        ],
+        [
+          "Interdisciplinary",
+          "Quantum Deployment",
+          "Serverless"
+        ]
+      ],
+      "flat_tags": [
+        "Interdisciplinary>Quantum Deployment",
+        "Interdisciplinary>Quantum Deployment>Serverless",
+        "Interdisciplinary",
+        "Interdisciplinary>Quantum Deployment>APIs"
+      ],
+      "prerequisite_module_ids": [
+        "devops-cloud-infrastructure",
+        "quantum-computing-quantum-circuits"
+      ],
+      "tag_prerequisite_paths": [
+        [
+          "DevOps",
+          "Cloud Infrastructure"
+        ],
+        [
+          "Quantum Computing",
+          "Quantum Circuits"
+        ]
+      ]
+    }
+  ],
+  "moduleOrder": [
+    "computer-science-programming-foundations",
+    "mathematics-linear-algebra-refresher",
+    "mathematics-discrete-mathematics",
+    "devops-cloud-infrastructure",
+    "quantum-computing-quantum-circuits",
+    "computer-science-algorithms-data-structures",
+    "quantum-computing-quantum-error-correction",
+    "interdisciplinary-quantum-deployment",
+    "machine-learning-probabilistic-models",
+    "interdisciplinary-quantum-machine-learning"
+  ],
+  "tagTree": {
+    "id": "root",
+    "name": "root",
+    "fullPath": "",
+    "children": [
+      {
+        "id": "computer-science",
+        "name": "Computer Science",
+        "fullPath": "Computer Science",
+        "children": [
+          {
+            "id": "computer-science-algorithms",
+            "name": "Algorithms",
+            "fullPath": "Computer Science>Algorithms",
+            "children": [
+              {
+                "id": "computer-science-algorithms-divide-and-conquer",
+                "name": "Divide and Conquer",
+                "fullPath": "Computer Science>Algorithms>Divide and Conquer",
+                "children": []
+              },
+              {
+                "id": "computer-science-algorithms-graph-algorithms",
+                "name": "Graph Algorithms",
+                "fullPath": "Computer Science>Algorithms>Graph Algorithms",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "computer-science-programming-foundations",
+            "name": "Programming Foundations",
+            "fullPath": "Computer Science>Programming Foundations",
+            "children": [
+              {
+                "id": "computer-science-programming-foundations-functional",
+                "name": "Functional",
+                "fullPath": "Computer Science>Programming Foundations>Functional",
+                "children": []
+              },
+              {
+                "id": "computer-science-programming-foundations-syntax",
+                "name": "Syntax",
+                "fullPath": "Computer Science>Programming Foundations>Syntax",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "devops",
+        "name": "DevOps",
+        "fullPath": "DevOps",
+        "children": [
+          {
+            "id": "devops-cloud-infrastructure",
+            "name": "Cloud Infrastructure",
+            "fullPath": "DevOps>Cloud Infrastructure",
+            "children": [
+              {
+                "id": "devops-cloud-infrastructure-foundations",
+                "name": "Foundations",
+                "fullPath": "DevOps>Cloud Infrastructure>Foundations",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "interdisciplinary",
+        "name": "Interdisciplinary",
+        "fullPath": "Interdisciplinary",
+        "children": [
+          {
+            "id": "interdisciplinary-quantum-deployment",
+            "name": "Quantum Deployment",
+            "fullPath": "Interdisciplinary>Quantum Deployment",
+            "children": [
+              {
+                "id": "interdisciplinary-quantum-deployment-apis",
+                "name": "APIs",
+                "fullPath": "Interdisciplinary>Quantum Deployment>APIs",
+                "children": []
+              },
+              {
+                "id": "interdisciplinary-quantum-deployment-serverless",
+                "name": "Serverless",
+                "fullPath": "Interdisciplinary>Quantum Deployment>Serverless",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "interdisciplinary-quantum-machine-learning",
+            "name": "Quantum Machine Learning",
+            "fullPath": "Interdisciplinary>Quantum Machine Learning",
+            "children": [
+              {
+                "id": "interdisciplinary-quantum-machine-learning-hybrid-models",
+                "name": "Hybrid Models",
+                "fullPath": "Interdisciplinary>Quantum Machine Learning>Hybrid Models",
+                "children": []
+              },
+              {
+                "id": "interdisciplinary-quantum-machine-learning-optimization",
+                "name": "Optimization",
+                "fullPath": "Interdisciplinary>Quantum Machine Learning>Optimization",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning",
+        "fullPath": "Machine Learning",
+        "children": [
+          {
+            "id": "machine-learning-probabilistic-models",
+            "name": "Probabilistic Models",
+            "fullPath": "Machine Learning>Probabilistic Models",
+            "children": [
+              {
+                "id": "machine-learning-probabilistic-models-graphical-models",
+                "name": "Graphical Models",
+                "fullPath": "Machine Learning>Probabilistic Models>Graphical Models",
+                "children": []
+              },
+              {
+                "id": "machine-learning-probabilistic-models-inference",
+                "name": "Inference",
+                "fullPath": "Machine Learning>Probabilistic Models>Inference",
+                "children": []
+              },
+              {
+                "id": "machine-learning-probabilistic-models-variational-methods",
+                "name": "Variational Methods",
+                "fullPath": "Machine Learning>Probabilistic Models>Variational Methods",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mathematics",
+        "name": "Mathematics",
+        "fullPath": "Mathematics",
+        "children": [
+          {
+            "id": "mathematics-discrete-mathematics",
+            "name": "Discrete Mathematics",
+            "fullPath": "Mathematics>Discrete Mathematics",
+            "children": [
+              {
+                "id": "mathematics-discrete-mathematics-logic",
+                "name": "Logic",
+                "fullPath": "Mathematics>Discrete Mathematics>Logic",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "mathematics-linear-algebra",
+            "name": "Linear Algebra",
+            "fullPath": "Mathematics>Linear Algebra",
+            "children": [
+              {
+                "id": "mathematics-linear-algebra-matrices",
+                "name": "Matrices",
+                "fullPath": "Mathematics>Linear Algebra>Matrices",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "quantum-computing",
+        "name": "Quantum Computing",
+        "fullPath": "Quantum Computing",
+        "children": [
+          {
+            "id": "quantum-computing-quantum-circuits",
+            "name": "Quantum Circuits",
+            "fullPath": "Quantum Computing>Quantum Circuits",
+            "children": [
+              {
+                "id": "quantum-computing-quantum-circuits-measurement",
+                "name": "Measurement",
+                "fullPath": "Quantum Computing>Quantum Circuits>Measurement",
+                "children": []
+              },
+              {
+                "id": "quantum-computing-quantum-circuits-single-qubit-operations",
+                "name": "Single Qubit Operations",
+                "fullPath": "Quantum Computing>Quantum Circuits>Single Qubit Operations",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "quantum-computing-quantum-error-correction",
+            "name": "Quantum Error Correction",
+            "fullPath": "Quantum Computing>Quantum Error Correction",
+            "children": [
+              {
+                "id": "quantum-computing-quantum-error-correction-stabilizer-codes",
+                "name": "Stabilizer Codes",
+                "fullPath": "Quantum Computing>Quantum Error Correction>Stabilizer Codes",
+                "children": []
+              },
+              {
+                "id": "quantum-computing-quantum-error-correction-topological",
+                "name": "Topological",
+                "fullPath": "Quantum Computing>Quantum Error Correction>Topological",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

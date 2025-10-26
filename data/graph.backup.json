@@ -1,0 +1,631 @@
+{
+  "generatedAt": "2024-05-07T00:00:00.000Z",
+  "modules": [
+    {
+      "id": "mathematics-linear-algebra",
+      "name": "Linear Algebra",
+      "area": "Mathematics",
+      "flatTags": [
+        "Mathematics",
+        "Mathematics>Linear Algebra",
+        "Mathematics>Linear Algebra>Vectors"
+      ],
+      "tagPaths": [
+        [
+          "Mathematics",
+          "Linear Algebra",
+          "Vectors"
+        ]
+      ],
+      "resourceIds": [
+        "linear-algebra-foundations-linear-algebra"
+      ],
+      "prerequisiteModuleIds": [],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Linear Algebra Foundations",
+          "summary": "Selected by minPrereqs strategy with 0 prerequisite modules.",
+          "resourceId": "linear-algebra-foundations-linear-algebra"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Linear Algebra Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-mathematics-linear-algebra",
+            "averageDifficulty": 1,
+            "aggregatedTags": [
+              "Mathematics",
+              "Mathematics>Linear Algebra",
+              "Mathematics>Linear Algebra>Vectors"
+            ],
+            "aggregatedPrereqModuleIds": []
+          }
+        }
+      },
+      "closurePrerequisites": [],
+      "closureOrder": 0
+    },
+    {
+      "id": "physics-quantum-mechanics",
+      "name": "Quantum Mechanics",
+      "area": "Physics",
+      "flatTags": [
+        "Physics",
+        "Physics>Quantum Mechanics",
+        "Physics>Quantum Mechanics>Wavefunctions"
+      ],
+      "tagPaths": [
+        [
+          "Physics",
+          "Quantum Mechanics",
+          "Wavefunctions"
+        ]
+      ],
+      "resourceIds": [
+        "quantum-mechanics-primer-quantum-mechanics"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Quantum Mechanics Primer",
+          "summary": "Selected by minPrereqs strategy with 1 prerequisite modules.",
+          "resourceId": "quantum-mechanics-primer-quantum-mechanics"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Mechanics Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-physics-quantum-mechanics",
+            "averageDifficulty": 2,
+            "aggregatedTags": [
+              "Physics",
+              "Physics>Quantum Mechanics",
+              "Physics>Quantum Mechanics>Wavefunctions"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "mathematics-linear-algebra"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "mathematics-linear-algebra"
+      ],
+      "closureOrder": 1
+    },
+    {
+      "id": "quantum-information-quantum-error-correction",
+      "name": "Quantum Error Correction",
+      "area": "Quantum Information",
+      "flatTags": [
+        "Quantum Information",
+        "Quantum Information>Quantum Error Correction",
+        "Quantum Information>Quantum Error Correction>Topological"
+      ],
+      "tagPaths": [
+        [
+          "Quantum Information",
+          "Quantum Error Correction",
+          "Topological"
+        ]
+      ],
+      "resourceIds": [
+        "topological-codes-quantum-error-correction"
+      ],
+      "prerequisiteModuleIds": [
+        "physics-quantum-mechanics",
+        "mathematics-linear-algebra"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Topological Codes",
+          "summary": "Selected by minPrereqs strategy with 2 prerequisite modules.",
+          "resourceId": "topological-codes-quantum-error-correction"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Error Correction Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-quantum-information-quantum-error-correction",
+            "averageDifficulty": 3,
+            "aggregatedTags": [
+              "Quantum Information",
+              "Quantum Information>Quantum Error Correction",
+              "Quantum Information>Quantum Error Correction>Topological"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "physics-quantum-mechanics",
+              "mathematics-linear-algebra"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "physics-quantum-mechanics",
+        "mathematics-linear-algebra"
+      ],
+      "closureOrder": 3
+    },
+    {
+      "id": "interdisciplinary-quantum-machine-learning",
+      "name": "Quantum Machine Learning",
+      "area": "Interdisciplinary",
+      "flatTags": [
+        "Interdisciplinary",
+        "Interdisciplinary>Quantum Machine Learning",
+        "Interdisciplinary>Quantum Machine Learning>Neural Networks"
+      ],
+      "tagPaths": [
+        [
+          "Interdisciplinary",
+          "Quantum Machine Learning",
+          "Neural Networks"
+        ]
+      ],
+      "resourceIds": [
+        "machine-learning-for-quantum-quantum-machine-learning"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra",
+        "physics-quantum-mechanics"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Machine Learning for Quantum",
+          "summary": "Selected by minPrereqs strategy with 2 prerequisite modules.",
+          "resourceId": "machine-learning-for-quantum-quantum-machine-learning"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Machine Learning Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-interdisciplinary-quantum-machine-learning",
+            "averageDifficulty": 2,
+            "aggregatedTags": [
+              "Interdisciplinary",
+              "Interdisciplinary>Quantum Machine Learning",
+              "Interdisciplinary>Quantum Machine Learning>Neural Networks"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "mathematics-linear-algebra",
+              "physics-quantum-mechanics"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "mathematics-linear-algebra",
+        "physics-quantum-mechanics"
+      ],
+      "closureOrder": 4
+    },
+    {
+      "id": "mathematics-category-theory",
+      "name": "Category Theory",
+      "area": "Mathematics",
+      "flatTags": [
+        "Mathematics",
+        "Mathematics>Category Theory"
+      ],
+      "tagPaths": [
+        [
+          "Mathematics",
+          "Category Theory"
+        ]
+      ],
+      "resourceIds": [
+        "category-theory-for-quantum-category-theory"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Category Theory for Quantum",
+          "summary": "Selected by minPrereqs strategy with 1 prerequisite modules.",
+          "resourceId": "category-theory-for-quantum-category-theory"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Category Theory Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-mathematics-category-theory",
+            "averageDifficulty": 3,
+            "aggregatedTags": [
+              "Mathematics",
+              "Mathematics>Category Theory"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "mathematics-linear-algebra"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "mathematics-linear-algebra"
+      ],
+      "closureOrder": 2
+    },
+    {
+      "id": "engineering-quantum-hardware",
+      "name": "Quantum Hardware",
+      "area": "Engineering",
+      "flatTags": [
+        "Engineering",
+        "Engineering>Quantum Hardware",
+        "Engineering>Quantum Hardware>Systems"
+      ],
+      "tagPaths": [
+        [
+          "Engineering",
+          "Quantum Hardware",
+          "Systems"
+        ]
+      ],
+      "resourceIds": [
+        "quantum-hardware-overview-quantum-hardware"
+      ],
+      "prerequisiteModuleIds": [
+        "physics-quantum-mechanics"
+      ],
+      "representativeProfiles": {
+        "minPrereqs": {
+          "type": "resource",
+          "label": "Quantum Hardware Overview",
+          "summary": "Selected by minPrereqs strategy with 1 prerequisite modules.",
+          "resourceId": "quantum-hardware-overview-quantum-hardware"
+        },
+        "aggregated": {
+          "type": "synthetic",
+          "label": "Quantum Hardware Aggregate",
+          "summary": "Synthetic representative aggregating all module resources.",
+          "synthetic": {
+            "id": "synthetic-engineering-quantum-hardware",
+            "averageDifficulty": 1,
+            "aggregatedTags": [
+              "Engineering",
+              "Engineering>Quantum Hardware",
+              "Engineering>Quantum Hardware>Systems"
+            ],
+            "aggregatedPrereqModuleIds": [
+              "physics-quantum-mechanics"
+            ]
+          }
+        }
+      },
+      "closurePrerequisites": [
+        "physics-quantum-mechanics",
+        "mathematics-linear-algebra"
+      ],
+      "closureOrder": 5
+    }
+  ],
+  "resources": [
+    {
+      "id": "linear-algebra-foundations-linear-algebra",
+      "name": "Linear Algebra Foundations",
+      "link": "https://example.com/lin-alg-start",
+      "area": "Mathematics",
+      "moduleId": "mathematics-linear-algebra",
+      "moduleName": "Linear Algebra",
+      "type": "Course",
+      "difficulty": "Beginner",
+      "difficultyWeight": 1,
+      "tagPaths": [
+        [
+          "Mathematics",
+          "Linear Algebra",
+          "Vectors"
+        ]
+      ],
+      "flatTags": [
+        "Mathematics",
+        "Mathematics>Linear Algebra",
+        "Mathematics>Linear Algebra>Vectors"
+      ],
+      "prerequisiteModuleIds": [],
+      "tagPrerequisitePaths": []
+    },
+    {
+      "id": "quantum-mechanics-primer-quantum-mechanics",
+      "name": "Quantum Mechanics Primer",
+      "link": "https://example.com/qm-primer",
+      "area": "Physics",
+      "moduleId": "physics-quantum-mechanics",
+      "moduleName": "Quantum Mechanics",
+      "type": "Course",
+      "difficulty": "Intermediate",
+      "difficultyWeight": 2,
+      "tagPaths": [
+        [
+          "Physics",
+          "Quantum Mechanics",
+          "Wavefunctions"
+        ]
+      ],
+      "flatTags": [
+        "Physics",
+        "Physics>Quantum Mechanics",
+        "Physics>Quantum Mechanics>Wavefunctions"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra"
+      ],
+      "tagPrerequisitePaths": [
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ]
+      ]
+    },
+    {
+      "id": "topological-codes-quantum-error-correction",
+      "name": "Topological Codes",
+      "link": "https://example.com/topological",
+      "area": "Quantum Information",
+      "moduleId": "quantum-information-quantum-error-correction",
+      "moduleName": "Quantum Error Correction",
+      "type": "Paper",
+      "difficulty": "Advanced",
+      "difficultyWeight": 3,
+      "tagPaths": [
+        [
+          "Quantum Information",
+          "Quantum Error Correction",
+          "Topological"
+        ]
+      ],
+      "flatTags": [
+        "Quantum Information",
+        "Quantum Information>Quantum Error Correction",
+        "Quantum Information>Quantum Error Correction>Topological"
+      ],
+      "prerequisiteModuleIds": [
+        "physics-quantum-mechanics",
+        "mathematics-linear-algebra"
+      ],
+      "tagPrerequisitePaths": [
+        [
+          "Physics",
+          "Quantum Mechanics"
+        ],
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ]
+      ]
+    },
+    {
+      "id": "machine-learning-for-quantum-quantum-machine-learning",
+      "name": "Machine Learning for Quantum",
+      "link": "https://example.com/ml-quantum",
+      "area": "Interdisciplinary",
+      "moduleId": "interdisciplinary-quantum-machine-learning",
+      "moduleName": "Quantum Machine Learning",
+      "type": "Video",
+      "difficulty": "Intermediate",
+      "difficultyWeight": 2,
+      "tagPaths": [
+        [
+          "Interdisciplinary",
+          "Quantum Machine Learning",
+          "Neural Networks"
+        ]
+      ],
+      "flatTags": [
+        "Interdisciplinary",
+        "Interdisciplinary>Quantum Machine Learning",
+        "Interdisciplinary>Quantum Machine Learning>Neural Networks"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra",
+        "physics-quantum-mechanics"
+      ],
+      "tagPrerequisitePaths": [
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ],
+        [
+          "Physics",
+          "Quantum Mechanics"
+        ]
+      ]
+    },
+    {
+      "id": "category-theory-for-quantum-category-theory",
+      "name": "Category Theory for Quantum",
+      "link": "https://example.com/category-theory",
+      "area": "Mathematics",
+      "moduleId": "mathematics-category-theory",
+      "moduleName": "Category Theory",
+      "type": "Notes",
+      "difficulty": "Advanced",
+      "difficultyWeight": 3,
+      "tagPaths": [
+        [
+          "Mathematics",
+          "Category Theory"
+        ]
+      ],
+      "flatTags": [
+        "Mathematics",
+        "Mathematics>Category Theory"
+      ],
+      "prerequisiteModuleIds": [
+        "mathematics-linear-algebra"
+      ],
+      "tagPrerequisitePaths": [
+        [
+          "Mathematics",
+          "Linear Algebra"
+        ]
+      ]
+    },
+    {
+      "id": "quantum-hardware-overview-quantum-hardware",
+      "name": "Quantum Hardware Overview",
+      "link": "https://example.com/hardware",
+      "area": "Engineering",
+      "moduleId": "engineering-quantum-hardware",
+      "moduleName": "Quantum Hardware",
+      "type": "Article",
+      "difficulty": "Beginner",
+      "difficultyWeight": 1,
+      "tagPaths": [
+        [
+          "Engineering",
+          "Quantum Hardware",
+          "Systems"
+        ]
+      ],
+      "flatTags": [
+        "Engineering",
+        "Engineering>Quantum Hardware",
+        "Engineering>Quantum Hardware>Systems"
+      ],
+      "prerequisiteModuleIds": [
+        "physics-quantum-mechanics"
+      ],
+      "tagPrerequisitePaths": [
+        [
+          "Physics",
+          "Quantum Mechanics"
+        ]
+      ]
+    }
+  ],
+  "moduleOrder": [
+    "mathematics-linear-algebra",
+    "physics-quantum-mechanics",
+    "mathematics-category-theory",
+    "quantum-information-quantum-error-correction",
+    "interdisciplinary-quantum-machine-learning",
+    "engineering-quantum-hardware"
+  ],
+  "tagTree": {
+    "id": "root",
+    "name": "root",
+    "fullPath": "",
+    "children": [
+      {
+        "id": "mathematics",
+        "name": "Mathematics",
+        "fullPath": "Mathematics",
+        "children": [
+          {
+            "id": "mathematics-linear-algebra",
+            "name": "Linear Algebra",
+            "fullPath": "Mathematics>Linear Algebra",
+            "children": [
+              {
+                "id": "mathematics-linear-algebra-vectors",
+                "name": "Vectors",
+                "fullPath": "Mathematics>Linear Algebra>Vectors",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "mathematics-category-theory",
+            "name": "Category Theory",
+            "fullPath": "Mathematics>Category Theory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "physics",
+        "name": "Physics",
+        "fullPath": "Physics",
+        "children": [
+          {
+            "id": "physics-quantum-mechanics",
+            "name": "Quantum Mechanics",
+            "fullPath": "Physics>Quantum Mechanics",
+            "children": [
+              {
+                "id": "physics-quantum-mechanics-wavefunctions",
+                "name": "Wavefunctions",
+                "fullPath": "Physics>Quantum Mechanics>Wavefunctions",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "quantum-information",
+        "name": "Quantum Information",
+        "fullPath": "Quantum Information",
+        "children": [
+          {
+            "id": "quantum-information-quantum-error-correction",
+            "name": "Quantum Error Correction",
+            "fullPath": "Quantum Information>Quantum Error Correction",
+            "children": [
+              {
+                "id": "quantum-information-quantum-error-correction-topological",
+                "name": "Topological",
+                "fullPath": "Quantum Information>Quantum Error Correction>Topological",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "interdisciplinary",
+        "name": "Interdisciplinary",
+        "fullPath": "Interdisciplinary",
+        "children": [
+          {
+            "id": "interdisciplinary-quantum-machine-learning",
+            "name": "Quantum Machine Learning",
+            "fullPath": "Interdisciplinary>Quantum Machine Learning",
+            "children": [
+              {
+                "id": "interdisciplinary-quantum-machine-learning-neural-networks",
+                "name": "Neural Networks",
+                "fullPath": "Interdisciplinary>Quantum Machine Learning>Neural Networks",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "engineering",
+        "name": "Engineering",
+        "fullPath": "Engineering",
+        "children": [
+          {
+            "id": "engineering-quantum-hardware",
+            "name": "Quantum Hardware",
+            "fullPath": "Engineering>Quantum Hardware",
+            "children": [
+              {
+                "id": "engineering-quantum-hardware-systems",
+                "name": "Systems",
+                "fullPath": "Engineering>Quantum Hardware>Systems",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

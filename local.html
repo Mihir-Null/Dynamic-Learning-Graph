@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Learning Graph Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.21.1/cytoscape.min.js"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: radial-gradient(circle at top left, rgba(98, 0, 234, 0.25), transparent 55%),
+        radial-gradient(circle at bottom right, rgba(0, 229, 255, 0.2), transparent 50%),
+        #121212;
+      color: inherit;
+    }
+
+    header {
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(18, 18, 18, 0.65);
+      backdrop-filter: blur(24px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0;
+      color: #ffffff;
+      letter-spacing: 0.01em;
+    }
+
+    header span {
+      font-size: 0.95rem;
+      color: rgba(224, 224, 224, 0.85);
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      padding: 24px 40px 40px;
+    }
+
+    #cy {
+      flex: 1;
+      border-radius: 28px;
+      background: linear-gradient(160deg, rgba(18, 18, 18, 0.85), rgba(31, 31, 31, 0.6));
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      box-shadow:
+        0 32px 64px rgba(0, 0, 0, 0.65),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+    }
+
+    footer {
+      padding: 16px 32px 24px;
+      font-size: 0.85rem;
+      color: rgba(224, 224, 224, 0.6);
+      text-align: right;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dynamic Learning Graph</h1>
+    <span>Material-inspired dark mode prototype</span>
+  </header>
+  <main>
+    <div id="cy"></div>
+  </main>
+  <footer>Prototype view &bull; Cytoscape.js</footer>
+
+  <script>
+    const palette = [
+      "#FF6F00", // Amber A700
+      "#00B8D4", // Cyan A700
+      "#D500F9", // Purple A700
+      "#FF3D00", // Deep Orange A400
+      "#64DD17", // Light Green A700
+      "#1DE9B6", // Teal A400
+      "#651FFF", // Deep Purple A400
+      "#FDD835", // Yellow 600
+    ];
+
+    const mockNodes = [
+      { data: { id: "Quantum Mechanics", name: "Quantum Mechanics" } },
+      { data: { id: "Linear Algebra", name: "Linear Algebra" } },
+      { data: { id: "Quantum Field Theory", name: "Quantum Field Theory" } },
+      { data: { id: "ML", name: "Machine Learning" } },
+    ].map((node, index) => ({
+      ...node,
+      data: {
+        ...node.data,
+        color: palette[index % palette.length],
+      },
+    }));
+
+    const mockEdges = [
+      { data: { source: "Quantum Mechanics", target: "Linear Algebra" } },
+      { data: { source: "Quantum Field Theory", target: "Quantum Mechanics" } },
+      { data: { source: "ML", target: "Linear Algebra" } },
+    ];
+
+    const cy = cytoscape({
+      container: document.getElementById("cy"),
+      elements: { nodes: mockNodes, edges: mockEdges },
+      layout: {
+        name: "cose",
+        animate: true,
+        padding: 40,
+      },
+      style: [
+        {
+          selector: "core",
+          style: {
+            "selection-box-color": "#1DE9B6",
+            "selection-box-border-color": "rgba(255, 255, 255, 0.3)",
+            "selection-box-opacity": 0.12,
+          },
+        },
+        {
+          selector: "node",
+          style: {
+            label: "data(name)",
+            "background-color": "data(color)",
+            "border-width": 2,
+            "border-color": "rgba(255, 255, 255, 0.3)",
+            "color": "#ffffff",
+            "font-size": 14,
+            "font-weight": 500,
+            "text-outline-color": "rgba(0, 0, 0, 0.48)",
+            "text-outline-width": 6,
+            "text-margin-y": -2,
+            "shadow-blur": 18,
+            "shadow-color": "rgba(0, 0, 0, 0.6)",
+            "shadow-offset-x": 0,
+            "shadow-offset-y": 8,
+            "width": 70,
+            "height": 70,
+            "transition-duration": "200ms",
+            "transition-property": "background-color, border-color, shadow-blur, width, height",
+          },
+        },
+        {
+          selector: "node:hover",
+          style: {
+            "border-width": 3,
+            "border-color": "rgba(255, 255, 255, 0.8)",
+            "shadow-blur": 25,
+            "width": 76,
+            "height": 76,
+          },
+        },
+        {
+          selector: "edge",
+          style: {
+            width: 4,
+            "line-color": "rgba(255, 255, 255, 0.18)",
+            "target-arrow-color": "rgba(255, 255, 255, 0.45)",
+            "target-arrow-shape": "triangle",
+            "curve-style": "unbundled-bezier",
+            "control-point-distances": [40, -40],
+            "control-point-weights": [0.3, 0.7],
+            "arrow-scale": 1.2,
+            "opacity": 0.8,
+            "transition-duration": "200ms",
+            "transition-property": "line-color opacity",
+          },
+        },
+        {
+          selector: "edge:hover",
+          style: {
+            "line-color": "rgba(255, 255, 255, 0.38)",
+            "target-arrow-color": "#1DE9B6",
+            opacity: 1,
+          },
+        },
+        {
+          selector: ":selected",
+          style: {
+            "border-color": "#1DE9B6",
+            "line-color": "#1DE9B6",
+            "target-arrow-color": "#1DE9B6",
+            "background-color": "#1DE9B6",
+            "text-outline-color": "rgba(0, 0, 0, 0.65)",
+          },
+        },
+        {
+          selector: "edge:selected",
+          style: {
+            width: 5,
+          },
+        },
+      ],
+    });
+  </script>
+</body>
+</html>

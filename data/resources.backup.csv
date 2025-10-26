@@ -1,0 +1,7 @@
+Resource Name,Link,Area,Module,Tags,Type,Difficulty,Prerequisite module(s),Tag Prerequisites
+Linear Algebra Foundations,https://example.com/lin-alg-start,Mathematics,Linear Algebra,Mathematics>Linear Algebra>Vectors,Course,Beginner,,,
+Quantum Mechanics Primer,https://example.com/qm-primer,Physics,Quantum Mechanics,Physics>Quantum Mechanics>Wavefunctions,Course,Intermediate,Linear Algebra,Mathematics>Linear Algebra
+Topological Codes,https://example.com/topological,Quantum Information,Quantum Error Correction,Quantum Information>Quantum Error Correction>Topological,Paper,Advanced,Quantum Mechanics|Linear Algebra,Physics>Quantum Mechanics|Mathematics>Linear Algebra
+Machine Learning for Quantum,https://example.com/ml-quantum,Interdisciplinary,Quantum Machine Learning,Interdisciplinary>Quantum Machine Learning>Neural Networks,Video,Intermediate,Linear Algebra|Quantum Mechanics,Mathematics>Linear Algebra|Physics>Quantum Mechanics
+Category Theory for Quantum,https://example.com/category-theory,Mathematics,Category Theory,Mathematics>Category Theory,Notes,Advanced,Linear Algebra,Mathematics>Linear Algebra
+Quantum Hardware Overview,https://example.com/hardware,Engineering,Quantum Hardware,Engineering>Quantum Hardware>Systems,Article,Beginner,Quantum Mechanics,Physics>Quantum Mechanics
