@@ -5,3 +5,4 @@ codex.log.*
 codex_history.jsonl
 codex_history.jsonl.*
 codex_sessions/
+node_modules/
